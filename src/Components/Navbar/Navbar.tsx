@@ -20,7 +20,6 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item">
-                                {/*<a className="header-links nav-link" href="/">Home</a>*/}
                                 <ScrollLink
                                     to={"/"}
                                     className='header-links nav-link'
@@ -29,8 +28,6 @@ function Navbar() {
                                 </ScrollLink>
                             </li>
                             <li className="nav-item">
-                                {/*<a className="header-links nav-link" href="/">About</a>*/}
-                                {/*<ScrollLink to={"header-name"} spy={true} smooth={true} offset={50} duration={500}>About</ScrollLink>*/}
                                 <ScrollLink
                                     to={"header-name"}
                                     spy={true}
@@ -43,8 +40,6 @@ function Navbar() {
                                 </ScrollLink>
                             </li>
                             <li className="nav-item">
-                                {/*<a className="header-links nav-link" href="/">Skills</a>*/}
-                                {/*<ScrollLink to={"skill-ID"} spy={true} smooth={true} offset={50} duration={500}>Skills</ScrollLink>*/}
                                 <ScrollLink
                                     to={"skill-ID"}
                                     spy={true}
@@ -57,7 +52,6 @@ function Navbar() {
                                 </ScrollLink>
                             </li>
                             <li className="nav-item">
-                                {/*<a className="header-links nav-link" href="/">Education</a>*/}
                                 <ScrollLink
                                     to={"education-ID"}
                                     spy={true}

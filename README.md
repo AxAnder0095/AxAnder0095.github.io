@@ -1,3 +1,23 @@
+# Portfolio Website made by Alexander Brown
+### Website made with front end framework React with Typescript 
+- Dependencies added to project 
+
+```json
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.1.5",
+    "react-scroll": "^1.9.2"
+  }
+}
+```
+
+## React documentation below
+
+# --------------------------------------------------------------------------
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
