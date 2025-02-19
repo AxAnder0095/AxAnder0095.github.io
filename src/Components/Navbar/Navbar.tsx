@@ -72,14 +72,13 @@ function Navbar() {
                                         d={Icons.github.dlink}/>
                                 </svg>
                             </a>
-                            <a className="icon nav-link" href={'https://www.linkedin.com'}>
+                            <a className="icon nav-link" href={'https://www.linkedin.com/in/alexander-brown-543337216/'}>
                                 <svg xmlns={Icons.linkedin.path} width="22" height="22" fill="black"
                                      className="bi bi-linkedin" viewBox="0 0 16 16">
                                     <path
                                         d={Icons.linkedin.dlink}/>
                                 </svg>
                             </a>
-
                         </div>
                     </div>
                 </div>

@@ -25,13 +25,13 @@ function Home() {
 
                 {/*introduction row*/}
                 <div className='row intro-row'>
-                    <div className='col-lg-3 d-flex justify-content-center align-items-center'>
-                        <div className='text-center'>
-                            <svg xmlns={Icons.penguin.path} id={Icons.penguin.iconID} viewBox="0 0 512 512" width="400" height="400">
-                                <path d={Icons.penguin.d}></path><circle cx="272" cy="64" r="8"></circle></svg>
-                        </div>
+                    <div className='col-lg-1 d-flex justify-content-center align-items-center'>
+                        {/*<div className='text-center'>*/}
+                        {/*    <svg xmlns={Icons.penguin.path} id={Icons.penguin.iconID} viewBox="0 0 512 512" width="400" height="400">*/}
+                        {/*        <path d={Icons.penguin.d}></path><circle cx="272" cy="64" r="8"></circle></svg>*/}
+                        {/*</div>*/}
                     </div>
-                    <div className='col-lg-8 d-flex justify-content-center align-items-center'>
+                    <div className='col-lg-11 d-flex justify-content-center align-items-center'>
                         <div className='row'>
                             <h3 className='text-dark'>Hi! i'm</h3>
                             <h1 className='name' id='header-name'>Alexander Brown </h1>

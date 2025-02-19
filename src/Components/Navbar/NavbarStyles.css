@@ -1,95 +1,66 @@
-.title-name{
-    /*font-size: 35px;*/
-    /*font-family: 'Rubik', sans-serif;*/
-    /*font-family: 'Rubik Mono One', serif;*/
-    /*font-weight: 200;*/
-}
 
-.navbar{
+.navbar {
     background-color: black;
 }
 
-.icon{
+.icon {
     display: inline-block;
     margin-right: 10px;
 }
 
-.bi-github:hover, .bi-linkedin:hover{
+.bi-github:hover, .bi-linkedin:hover {
     fill: gray;
 }
 
-.bi-github, .bi-linkedin{
+.bi-github, .bi-linkedin {
     /*fill: rgb(0, 0, 0, 0.4);*/
     fill: white;
 }
 
-.header-links, .title-name{
-    /*color: #a3a3a3;*/
+.header-links, .title-name {
     font-family: 'Montserrat', Helvetica, serif;
 }
 
-.title-name{
+.title-name {
     font-size: 1.4em;
     color: white;
 }
 
-.header-links{
-    /*color: rgb(0, 0, 0, 0.3);*/
+.header-links {
     color: white;
     font-size: 1.2rem;
     margin-right: 25px;
-    /*border: 2px solid rgb(0, 0, 0, 0);*/
-    /*border-radius: 5px;*/
 }
 
-.header-links:hover{
+
+.header-links:hover {
     color: gray;
-    /*background-color: black;*/
-    /*border: 2px solid white;*/
-    /*border-radius: 5px;*/
 }
 
-
-
-@media(max-width:992px){
-    /*
-    For screen size lg and below, remove margin and padding
-    added to collapsed navigation bar
-    */
-
-    .title-name{
+@media (max-width: 992px) {
+    .title-name {
         font-size: 30px;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         margin: 0;
         padding: 0;
     }
 
-    .icon-container{
+    .icon-container {
         margin: 0;
         padding: 0px;
     }
 
-    .header-links{
+    .header-links {
         margin-top: 2px;
         margin-bottom: 2px;
         padding: 0px;
     }
 
-    /*.title-name{*/
-    /*    font-size: 40px;*/
-    /*}*/
-
     .navbar-toggler {
-        /*margin-right: 30px;*/
-        /*margin-bottom: 15px;*/
-        /*background-color: white;*/
-        /*padding: 1px 7px 1px 7px !important;*/
-
+        background-color: white;
     }
-
 }
-
 
 
