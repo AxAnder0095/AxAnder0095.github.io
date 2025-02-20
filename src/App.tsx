@@ -1,5 +1,6 @@
 import './App.css'
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+// import {HashRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./Page/Home.tsx";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     // Can use basename="/portfolio/" or basename={import.meta.env.BASE_URL}
     return (
         <div className="main">
-            <Router basename={import.meta.env.BASE_URL}>
+            <Router basename={"/"}>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                 </Routes>
