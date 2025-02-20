@@ -1,21 +1,21 @@
 import './App.css'
-import {HashRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./Page/Home.tsx";
-import Navbar from "./Components/Navbar/Navbar.tsx";
-import Footer from "./Components/Footer/Footer.tsx";
+// import Navbar from "./Components/Navbar/Navbar.tsx";
+// import Footer from "./Components/Footer/Footer.tsx";
 
 function App() {
 
 
     return (
         <div className="main">
-            <Navbar/>
-            <Router>
+            {/*<Navbar/>*/}
+            <Router basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                 </Routes>
             </Router>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
     )
 }

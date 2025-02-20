@@ -16,11 +16,14 @@ import COMPUTERIMG from './imgs/coding (1).png'
 import BOOKS from './imgs/stack-of-books.png'
 import GRAD from './imgs/graduated.png'
 import {Icons} from "../Objects/Icons.tsx";
+import Navbar from "../Components/Navbar/Navbar.tsx";
+import Footer from "../Components/Footer/Footer.tsx";
 
 
 function Home() {
     return (
         <>
+            <Navbar/>
             <div className='container home-container'>
 
                 {/*introduction row*/}
@@ -263,7 +266,7 @@ function Home() {
                 </div>
             </div>
             <div className='container mt-5 '></div>
-            {/*<Footer/>*/}
+            <Footer/>
         </>
     )
 }

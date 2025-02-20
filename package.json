@@ -1,5 +1,5 @@
 {
-  "homepage":"http://AxAnder0095.github.io/portfolio/",
+  "homepage": "http://AxAnder0095.github.io/portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^22.13.4",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@types/react-scroll": "^1.8.10",
