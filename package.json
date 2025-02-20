@@ -1,13 +1,13 @@
 {
+  "homepage":"http://AxAnder0095.github.io/portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage":"http://AxAnder0095.github.io/{repo-name}",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
